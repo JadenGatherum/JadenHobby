@@ -1,0 +1,27 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    
+}
+
+<h2>Simple Calculator</h2>
+<form>
+    <label>Number of hours you would like to be tutored</label>
+    <input id = "hoursTutored"/>
+    <br />
+    <label>Hourly charge: </label>
+    <input type="text" value="500" id="hourlyCharge" readonly>
+
+    <input type="button" value="Calculate" id="btnCalc" />
+ 
+    <label>Your total for my services: </label>
+    <input type="text" id="readonlyInput" readonly>
+
+  
+
+   
+</form>
+
+<a asp-controller="Home" asp-action="Index">Back to the Home Page</a>
+
